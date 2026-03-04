@@ -10,7 +10,6 @@ import { ApiResponse } from "@/src/types/ApiRsponse";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios, { AxiosError } from "axios";
 import { Loader2, RefreshCcw } from "lucide-react";
-import { User } from "next-auth";
 import { useSession } from "next-auth/react";
 import { refresh } from "next/cache";
 import { useCallback, useEffect, useState } from "react";
